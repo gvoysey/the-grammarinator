@@ -10,7 +10,6 @@ basicConfig(format='%(levelname)s %(asctime)s- %(message)s', datefmt='%d %b %H:%
 subreddit_list = ['bicycling', 'bicycletouring', 'motorcycles']
 
 user = "grammarinator-bot"
-pw = "ef8d9abd4301942d2ef40d9b3604b124f3e57d7c"
 r = praw.Reddit(user_agent='the-grammarinator, a pedantic speel-czecher.')
 # r.login(user, pw, disable_warning=True)
 o = OAuth2Util.OAuth2Util(r)
